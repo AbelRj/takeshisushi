@@ -1,0 +1,38 @@
+{
+    "rellenos": [
+      {
+        "categoria": "Basicos",
+        "productos": [
+          { "id": 300, "nombre": "Cebollin", "precio": 0 },
+          { "id": 301, "nombre": "Pepino", "precio": 500 },
+          { "id": 302, "nombre": "Champiñon", "precio": 500 },
+          { "id": 303, "nombre": "Palmito", "precio": 500 },
+          { "id": 304, "nombre": "Choclo", "precio": 500 },
+          { "id": 305, "nombre": "Palta", "precio": 500 },
+          { "id": 306, "nombre": "kanikama", "precio": 500 },
+          { "id": 307, "nombre": "Pimenton", "precio": 0 }
+        ]
+      },
+      {
+        "categoria": "Premium",
+        "productos": [
+          { "id": 308, "nombre": "Salmon", "precio": 1000 },
+          { "id": 309, "nombre": "Camaron", "precio": 1000 },
+          { "id": 310, "nombre": "Camaron Tempura", "precio": 1000 },
+          { "id": 311, "nombre": "Queso", "precio": 1000 },
+          { "id": 312, "nombre": "Pollo", "precio": 1000 }
+        ]
+      },
+      {
+        "categoria": "Plaquetas",
+        "productos": [
+          { "id": 313, "nombre": "Salmon", "precio": 1000 },
+          { "id": 314, "nombre": "Queso Crema", "precio": 1000 },
+          { "id": 315, "nombre": "Palta", "precio": 1000 },
+          { "id": 316, "nombre": "Pollo", "precio": 1000 },
+          { "id": 317, "nombre": "Camaron", "precio": 1500 }
+        ]
+      }
+    ]
+  }
+  

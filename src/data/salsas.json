@@ -1,0 +1,47 @@
+{
+    "salsas": [
+      {
+        "id": 200,
+        "nombre": "teriyaki",
+        "descripcion": "",
+        "envoltura": "",
+        "precio": 300
+      },
+      {
+        "id": 201,
+        "nombre": "Soya",
+        "descripcion": "",
+        "envoltura": "",
+        "precio": 300
+      },
+      {
+        "id": 202,
+        "nombre": "Spicy",
+        "descripcion": "",
+        "envoltura": "",
+        "precio": 300
+      },
+      {
+        "id": 203,
+        "nombre": "Huancaina",
+        "descripcion": "",
+        "envoltura": "",
+        "precio": 1000
+      },
+      {
+        "id": 204,
+        "nombre": "Acevichada",
+        "descripcion": "",
+        "envoltura": "",
+        "precio": 2000
+      },
+      {
+        "id": 205,
+        "nombre": "Ceviche",
+        "descripcion": "",
+        "envoltura": "",
+        "precio": 2000
+      }
+    ]
+  }
+  

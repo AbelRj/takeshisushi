@@ -1,0 +1,60 @@
+{
+  "sushi": [
+    {
+      "category": "CALIFORNIA ROLL",
+      "items": [
+        { "id": 100, "nombre": "Mr California Chicken", "descripcion": "Pollo, Queso y Palta", "precio": 3500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 101, "nombre": "Mr California Natura", "descripcion": "Choclito, Queso y Palta", "precio": 3000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 102, "nombre": "Mr California Cheese", "descripcion": "Queso Crema, Palta y Cebollín", "precio": 3800, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 103, "nombre": "Mr California Ebi", "descripcion": "Camarón, Queso, Palta", "precio": 3800, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 104, "nombre": "Mr California Sake", "descripcion": "Salmón, Queso, Palta", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 105, "nombre": "Mr California Maki", "descripcion": "Kanikama, Queso, Palta", "precio": 3500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 106, "nombre": "Mr California Ebi Tempura", "descripcion": "Camarón Tempura, Queso, Palta", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 107, "nombre": "Mr California Tako", "descripcion": "Pulpo, Queso, Cebollín", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 108, "nombre": "Mr California Nuts", "descripcion": "Nueces, Queso, Palta", "precio": 3500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 109, "nombre": "Mr California Almond", "descripcion": "Pollo, Queso, Palta + Almendra", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 110, "nombre": "Mr California Light", "descripcion": "Champiñón, Pepino, Palta", "precio": 3200, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 111, "nombre": "Mr California Vegetariano", "descripcion": "Champiñón, Espárrago, Palmito", "precio": 3500, "imagen": "public/img/sushi/promo6.jpg" }
+      ]
+    },
+    {
+      "category": "ROLL ENVUELTO PALTA Y SALMÓN",
+      "items": [
+        { "id": 112, "nombre": "Mr Sakedu", "descripcion": "Camarón, Salmón, Queso", "precio": 4800, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 113, "nombre": "Mr Ebi Roll", "descripcion": "Camarón, Queso, Cebollín", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 114, "nombre": "Mr Teriyaki Roll", "descripcion": "Pollo, Palta, Queso", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 115, "nombre": "Mr Ebi Tempura", "descripcion": "Camarón Tempura, Queso, Cebollín", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 116, "nombre": "Mr Sake Roll", "descripcion": "Salmón, Queso, Palta", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 117, "nombre": "Mr Tako Roll", "descripcion": "Pulpo, Queso, Cebollín", "precio": 5500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 118, "nombre": "Mr Tempura Spicy Roll", "descripcion": "Camarón Tempura, Palta, salsa spicy", "precio": 5000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 119, "nombre": "Mr Maki Roll", "descripcion": "Kanikama, Queso, Palta", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 120, "nombre": "Mr Almond Roll", "descripcion": "Pollo, Queso, Almendras", "precio": 4800, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 121, "nombre": "Mr Chile Roll", "descripcion": "Salmón macerado en limón, cebolla y cilantro", "precio": 4800, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 122, "nombre": "Mr Rainbow Roll", "descripcion": "Kanikama, Queso, Cebollín", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 123, "nombre": "Mr Tamarindo Roll", "descripcion": "Pollo tamarindo, Queso, Cebollín", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 124, "nombre": "Mr Tropical Roll", "descripcion": "Camarón Tempura, Queso, Piña", "precio": 4800, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 125, "nombre": "Mr Sake Tempura", "descripcion": "Salmón Tempura, Palta", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" }
+      ]
+    },
+    {
+      "category": "CHEESE ROLL (ENVUELTO QUESO CREMA)",
+      "items": [
+        { "id": 126, "nombre": "Cheese Chicken", "descripcion": "Pollo, Palta, Cebollín", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 127, "nombre": "Cheese Sake Roll", "descripcion": "Salmón, Palta, Cebollín", "precio": 4700, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 128, "nombre": "Cheese Ebi Roll", "descripcion": "Camarón, Palta", "precio": 4700, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 129, "nombre": "Ebi Furay Gratinado y Almendras", "descripcion": "Camarón Apanado, Palta", "precio": 5000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 130, "nombre": "Cheese Almond Roll", "descripcion": "Pollo, Almendras, Palta", "precio": 4500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 131, "nombre": "Cheese Sake Furay", "descripcion": "Salmón Apanado, Palta, Cebollín", "precio": 4800, "imagen": "public/img/sushi/promo6.jpg" }
+      ]
+    },
+    {
+      "category": "ROLL CALIENTE (FRITOS)",
+      "items": [
+        { "id": 132, "nombre": "Tori Roll", "descripcion": "Pollo, Queso, Cebollín", "precio": 3500, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 133, "nombre": "Nori Tempura", "descripcion": "Camarón, Queso, Cebollín, Spicy", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 134, "nombre": "Almond Tempura", "descripcion": "Pollo, Almendra, Queso", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" },
+        { "id": 135, "nombre": "Vegel Roll", "descripcion": "Champiñón, Queso, Espárragos", "precio": 4000, "imagen": "public/img/sushi/promo6.jpg" }
+      ]
+    }
+  ]
+}

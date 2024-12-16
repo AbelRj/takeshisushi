@@ -1,0 +1,92 @@
+{
+  "platos_peruanos": [
+    {
+      "id": 1,
+      "nombre": "LOMO SALTEADO",
+      "descripcion": "Arroz, Papas Fritas con Saltado de Lomo",
+      "precio": 9500,
+      "imagen": "public/img/cperuana/lomosalteado.jpg",
+      "btn_id": "btn1"
+    },
+    {
+      "id": 2,
+      "nombre": "TALLARIN SALTEADO MIXTO",
+      "descripcion": "Pollo y carne verduras salteadas al wok Con toques del Chefs",
+      "precio": 8500,
+      "imagen": "public/img/cperuana/tallarinsaltadomixto.jpg",
+      "btn_id": "btn2"
+    },
+    {
+      "id": 3,
+      "nombre": "TALLARIN SALTEADO POLLO",
+      "descripcion": "Pechugas de pollo con verduras salteadas al wok con toques del chefs",
+      "precio": 7500,
+      "imagen": "public/img/cperuana/tallarinsalteadopollo.jpg",
+      "btn_id": "btn3"
+    },
+    {
+      "id": 4,
+      "nombre": "ARROZ CHAUFA MIXTO",
+      "descripcion": "Carne y de pollo con verduras salteadas al wok con toques del chefs",
+      "precio": 8500,
+      "imagen": "public/img/cperuana/arrozchaufamixto.jpg",
+      "btn_id": "btn4"
+    },
+    {
+      "id": 5,
+      "nombre": "ARROZ CHAUFA POLLO",
+      "descripcion": "Pechuga de pollo con verduras salteadas al wok con toques del chefs",
+      "precio": 7500,
+      "imagen": "public/img/cperuana/Arrozchaufapollo.jpg",
+      "btn_id": "btn5"
+    },
+    {
+      "id": 6,
+      "nombre": "ARROZ CHAUFA EL REY",
+      "descripcion": "De salmón y camarón con verduras salteadas al wok con toques del chefs",
+      "precio": 8990,
+      "imagen": "public/img/cperuana/promo6.jpg",
+      "btn_id": "btn6"
+    },
+    {
+      "id": 7,
+      "nombre": "POLLO BROSTHER",
+      "descripcion": "Pechugas de pollo apanado + papas fritas arroz, + ensalada + bebida 220 ml",
+      "precio": 6000,
+      "imagen": "public/img/cperuana/pollobroaster.jpg",
+      "btn_id": "btn7"
+    },
+    {
+      "id": 8,
+      "nombre": "PESCADO BROSTHER",
+      "descripcion": "Filete de pescado+ papas fritas+ arroz + ensalada bebida 220 ml",
+      "precio": 6000,
+      "imagen": "public/img/cperuana/promo8.jpg",
+      "btn_id": "btn8"
+    },
+    {
+      "id": 9,
+      "nombre": "BISTEC A LO POBRE",
+      "descripcion": "Papas + Filete vacuno + 2 huevo",
+      "precio": 10500,
+      "imagen": "public/img/cperuana/BISTECALOPOBRE.jpg",
+      "btn_id": "btn9"
+    },
+    {
+      "id": 10,
+      "nombre": "NAGETT MEDIANO",
+      "descripcion": "7 unidades + papas",
+      "precio": 4000,
+      "imagen": "public/img/cperuana/nuggets.jpg",
+      "btn_id": "btn10"
+    },
+    {
+      "id": 11,
+      "nombre": "NAGETT GRANDE",
+      "descripcion": "12 unidades + papas",
+      "precio": 6000,
+      "imagen": "public/img/cperuana/nuggets.jpg",
+      "btn_id": "btn11"
+    }
+  ]
+}
