@@ -5,6 +5,7 @@ const Relleno = ({ id, nombre, precio, setSeleccionados, seleccionados }) => {
             [id]: checked,
         }));
     };
+    
     return (
         <div className="contenedor-relleno">
             {nombre} - ${precio}

@@ -12,7 +12,9 @@ const CarritoReducer = (state, action) => {
                             ? { ...item, cantidad: action.payload.cantidad,
 
                                 sugerencia: action.payload.sugerencia, // Actualiza la sugerencia
-                                subTotal: action.payload.subTotal
+                                totalSalsas: action.payload.totalSalsas,
+                                salsasSeleccionadas: action.payload.salsasSeleccionadas // Actualizar las salsas
+
 
                              }
                             : item

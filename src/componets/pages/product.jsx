@@ -14,7 +14,9 @@ const Product = () => {
   const [sugerencia, setSugerencia] = useState(''); // Estado para manejar la sugerencia
   const { state, dispatch } = useContext(CarritoContext);
   const navigate = useNavigate(); // Hook para redirigir
-  const [totalSalsas, setTotalSalsas] = useState(0); // Estado para el total de salsas
+  const [totalSalsas, setTotalSalsas] = useState(0);
+  const [salsasSeleccionadas, setSalsasSeleccionadas] = useState([]); // Estado para las salsas
+
 
 
   // Busca el producto en ambos JSON
@@ -29,6 +31,8 @@ const Product = () => {
         // Si el producto ya está en el carrito, carga sus valores
         setCantidad(itemEnCarrito.cantidad);
         setSugerencia(itemEnCarrito.sugerencia || ''); // Sugerencia podría no existir
+        setSalsasSeleccionadas(itemEnCarrito.salsasSeleccionadas || []); // Cargar salsas seleccionadas
+
       }
     }
   }, [producto, state.cart]); // Se ejecuta cuando cambia el producto o el carrito
@@ -51,7 +55,9 @@ const Product = () => {
     if (cantidad > 0) {
       dispatch({
         type: 'ADD_TO_CART',
-        payload: { ...producto, cantidad, sugerencia,  totalSalsas }, // Incluye la cantidad seleccionada
+        payload: { ...producto, cantidad, sugerencia,totalSalsas, 
+          salsasSeleccionadas // Añadir las salsas seleccionadas
+           },
       });
 
       // Redirigir según el tipo de producto
@@ -79,7 +85,11 @@ const Product = () => {
         ></textarea>
         <Cantidad cantidad={cantidad} setCantidad={setCantidad} className="contenedor-cantidad" />
         {/* Solo mostrar ExtraSushi si es un producto de sushi */}
-        {esSushi && <SectionSalsa setTotalSalsas={setTotalSalsas}/>}
+        {esSushi && <SectionSalsa        
+                    setTotalSalsas={setTotalSalsas}
+                    setSalsasSeleccionadas={setSalsasSeleccionadas}
+                   
+                  />}
         <br></br>
         {esSushi && <SectionRellenos />}
         {state.cart.find((p) => p.id === producto.id) ? (
